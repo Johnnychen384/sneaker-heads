@@ -25,3 +25,82 @@ Images:
 - "https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg"
     - (You may use any image you would like for the background!)
 */
+@font-face {
+    font-family: "Cooper Black";
+    src: url("/fonts/cooper-black.otf");
+}
+
+* {
+    font-family: "Cooper Black", serif;
+    color: white;
+    border-radius: .5em;
+}
+
+
+body {
+    background-image: url("https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg");
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+    width: 70%;
+}
+
+#title {
+    width: 100%;
+    background-image: linear-gradient(rgb(116, 201, 241), rgb(251, 64, 64));
+    border-radius: 1em;
+    margin: 1em 0;
+}
+
+#title h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(109, 0, 251);
+    font-size: 1.5em;
+}
+
+#row1-section1 img {
+    box-shadow: 4px 0px .3em rgb(10, 36, 232);
+}
+
+#jordans-1-desc, #jordans-2-desc {
+    padding: .3em .5em;
+    font-size: 1.2em;
+}
+
+#row1-section2 {
+    background-color: rgb(116, 201, 241);
+    border: 2px solid red;
+    width: 600px;
+    margin: .7em 0;
+}
+
+
+#row2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#row2-section1 img {
+    box-shadow: -4px 0em .3em rgb(251, 64, 64);
+
+}
+
+
+#row2-section2 {
+    background-color: rgb(251, 64, 64);
+    border: 3px solid rgb(13, 110, 0);
+    width: 600px;
+    margin: .7em 0;
+}
